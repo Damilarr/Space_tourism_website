@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Damilarr/Space_tourism_website)
-- Live Site URL: [Add live site URL here](https://Damilarr.github.io/Space_tourism_website)
+- Solution URL: [Solution Url](https://github.com/Damilarr/Space_tourism_website)
+- Live Site URL: [live site](https://Damilarr.github.io/Space_tourism_website)
 
 ## My process
 
