@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  
+  <title>Crew</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body style="background-image: url(./assets/crew/background-crew-desktop.jpg);" class="crew-body">
+  <header class="mb-5">
+    <nav class="navbar navbar-expand-sm">
+      <a href=""><img src="./assets/shared/logo.svg" alt=""></a>
+      <span class="position-absolute"></span>
+      <button class="nav-toggler" onclick="toggleNav()" type="button" href="#mobile-navbar">
+        <img src="../starter-code/assets/shared/icon-hamburger.svg"></img>
+      </button>
+      <ul class="p-2 mt-2 navbar px-md-5 flex-nowrap px-0" id="navBarr">
+        <li class="nav-item  mr-lg-5 mr-sm-1 mr-0 py-2">
+          <a class="nav-link text-white " href="./index.html">00 HOME</a>
+        </li>
+        <li class="nav-item  py-2 mr-lg-5 mr-sm-1 mr-0">
+          <a class="nav-link text-white" href="./destination.html">01 DESTINATION</a>
+        </li>
+        <li class="nav-item  py-2 mr-lg-5 mr-sm-1 mr-0">
+          <a class="nav-link text-white" href="./crew.html">02 CREW</a>
+        </li>
+        <li class="nav-item  py-2">
+          <a class="nav-link text-white" href="./technology.html">03 TECHNOLOGY</a>
+        </li>
+      </ul>
+      <!-- .......................... -->
+      <ul class=" pt-5 navbar pl-1 pr-3 w-50" id="mobile-navbar">
+        <li class="nav-item mb-5 pb-4">
+          <a href="#" onclick="toggleNav()" class="nav-link text-white float-right">&times</a>
+        </li>
+        <li class="nav-item w-75">
+          <a class="nav-link text-white " href="./index.html">00 HOME</a>
+        </li>
+        <li class="nav-item  w-75">
+          <a class="nav-link text-white" href="./destination.html">01 DESTINATION</a>
+        </li>
+        <li class="nav-item  w-75">
+          <a class="nav-link text-white" href="./crew.html">02 CREW</a>
+        </li>
+        <li class="nav-item  py-2">
+          <a class="nav-link text-white" href="./technology.html">03 TECHNOLOGY</a>
+        </li>
+      </ul>
+    </nav>
+   
+  </header>
+  <div class="d-flex justify-content-around w-100 rev  main-flex fixed-bottom px-1 px-lg-5 mt-2 mt-lg-5">
+    <div class="d-flex flex-column align-items-start w-50 px-3 main1 my-1 py-1 py-xl-5 my-xl-5">
+      <div class="d-flex flex-column align-items-center  mb-3">
+        <p class="text-white textt"><span class="brown-col">02</span><span class="textt"> MEET YOUR CREW</span></p>
+      </div>
+      <div class="brown-col barlow pt-0 pt-xl-5 mt-0 mt-xl-5 mx-auto mx-lg-0" id="crewRole">COMMANDER</div>
+      <h1 class="text-light font-weight-light namee belle mx-auto mx-lg-0" id="crewName">DOUGLAS HURLEY</h1>
+      <div class="w-100 mx-sm-auto mx-lg-0"><p class="textt text-left center-text" id="crewBio">Douglas Gerald Hurley is an American engineer, former Marine Corps pilot and former NASA astronaut. He launched into space for the third time as commander of Crew Dragon Demo-2.</p></div>
+      <div class="mt-1 mt-xl-5 pt-1 pt-xl-5 mx-auto mx-lg-0 crewBtns">
+        <button class="btn text-white shadow-none fa fa-circle"></button>
+        <button class="btn shadow-none fa fa-circle"></button>
+        <button class="btn shadow-none fa fa-circle"></button>
+        <button class="btn shadow-none fa fa-circle"></button>
+      </div>
+    </div>
+    <div class="flex-column justify-self-center c-image mx-auto mx-lg-0">
+      <img src="./assets/crew/image-douglas-hurley.webp" class="crewImg  px-4" id="crewImg"  alt="">
+      <p class="mb-0 bg-white text-white thin-line w-100"></p>
+    </div>
+  </div>
+</body>
+<script src="./js/main.js"></script>
+</html>
