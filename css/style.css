@@ -10,7 +10,7 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    height: 100vh;
+    height: fit-content;
 }
 html,body{
     overflow-x: hidden;
